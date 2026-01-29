@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>2tshie Dental Clinic | 24-Hour Dentist Abuja | Novare Apo Mall</title>
+    <meta name="description" content="Abuja's #1 24-Hour Dental Clinic at Novare Apo Mall. Emergency care, Braces, and Cosmetic Dentistry. Book now!">
+    <meta property="og:title" content="2tshie Dental | Pain-Free Dentist in Abuja">
+    <meta property="og:description" content="20% Off Braces Promo! Open 24 Hours for emergencies. Located at Shoprite Novare Mall.">
+    <meta property="og:image" content="https://2tshiedental.netlify.app/hero-bg.jpg"> 
+    <meta property="og:type" content="website">
+
+    <link rel="icon" href="favicon.png" type="image/png">
+
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <style>
+        body { 
+            font-family: 'Inter', sans-serif; 
+            background-color: #f8fafc;
+            color: #1e293b;
+            scroll-behavior: smooth; 
+        }
+
+        /* --- GLASSMORPHISM SYSTEM --- */
+        .glass {
+            background: rgba(255, 255, 255, 0.7);
+            backdrop-filter: blur(16px);
+            -webkit-backdrop-filter: blur(16px);
+            border: 1px solid rgba(255, 255, 255, 0.5);
+            box-shadow: 0 4px 30px rgba(0, 0, 0, 0.05);
+        }
+        .glass-dark {
+            background: rgba(15, 23, 42, 0.6);
+            backdrop-filter: blur(12px);
+            -webkit-backdrop-filter: blur(12px);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+        }
+        .glow-blob {
+            position: absolute;
+            width: 300px;
+            height: 300px;
+            background: linear-gradient(180deg, rgba(59, 130, 246, 0.3) 0%, rgba(147, 51, 234, 0.3) 100%);
+            filter: blur(80px);
+            border-radius: 50%;
+            z-index: -1;
+        }
+        @keyframes pulse-red {
+            0% { box-shadow: 0 0 0 0 rgba(220, 38, 38, 0.4); }
+            70% { box-shadow: 0 0 0 10px rgba(220, 38, 38, 0); }
+            100% { box-shadow: 0 0 0 0 rgba(220, 38, 38, 0); }
+        }
+        .animate-pulse-red { animation: pulse-red 2s infinite; }
+    </style>
+</head>
+<body class="antialiased">
+
+    <div class="bg-red-600 text-white py-3 px-4 text-center text-sm font-medium sticky top-0 z-[60] flex justify-center items-center gap-2 shadow-md">
+        <i data-lucide="siren" class="w-4 h-4 animate-pulse"></i>
+        <span>24-Hour Emergency Dental Care Available.</span> 
+        <a href="tel:+2349165409004" class="underline hover:text-red-100 font-bold decoration-2 underline-offset-2">Call Now</a>
+    </div>
+
+    <div class="fixed top-14 left-0 right-0 z-50 flex justify-center px-4 pointer-events-none">
+        <nav class="glass rounded-full px-6 py-3 flex justify-between items-center w-full max-w-5xl shadow-lg pointer-events-auto">
+            <div class="font-bold text-xl text-slate-800 flex items-center gap-2 tracking-tight">
+                <div class="bg-blue-600 text-white p-1.5 rounded-lg">
+                    <i data-lucide="plus" class="w-4 h-4"></i>
+                </div>
+                2tshie<span class="text-slate-400 font-light">Dental</span>
+            </div>
+            <div class="hidden md:flex space-x-8 font-medium text-sm text-slate-600">
+                <a href="#services" class="hover:text-blue-600 transition">Services</a>
+                <a href="#testimonials" class="hover:text-blue-600 transition">Reviews</a>
+                <a href="#gallery" class="hover:text-blue-600 transition">Clinic Tour</a>
+            </div>
+            <a href="#book" class="bg-slate-900 text-white px-5 py-2.5 rounded-full text-sm font-medium hover:bg-slate-800 shadow-lg hover:shadow-xl transition-all flex items-center gap-2">
+                Book Now <i data-lucide="arrow-right" class="w-3 h-3"></i>
+            </a>
+        </nav>
+    </div>
+
+    <section class="relative min-h-[90vh] flex items-center justify-center text-center overflow-hidden pt-20">
+        <div class="absolute inset-0 z-0">
+            <img src="hero-bg.jpg" alt="Dentist and Patient" class="w-full h-full object-cover">
+            <div class="absolute inset-0 bg-gradient-to-t from-slate-900 via-slate-900/60 to-transparent"></div>
+        </div>
+        <div class="relative z-10 max-w-3xl mx-6 mt-16">
+            <div class="glass-dark p-8 md:p-12 rounded-[2.5rem] text-white border border-white/10 shadow-2xl backdrop-blur-xl">
+                <span class="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-blue-500/20 border border-blue-400/30 text-blue-200 text-xs font-bold uppercase tracking-widest mb-6">
+                    <i data-lucide="map-pin" class="w-3 h-3"></i> Novare Apo Mall, Abuja
+                </span>
+                <h1 class="text-4xl md:text-6xl font-bold leading-tight mb-6 tracking-tight">
+                    World-Class Dentistry,<br>
+                    <span class="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-purple-400">Right Here in Abuja.</span>
+                </h1>
+                <p class="text-lg text-slate-300 mb-8 font-light max-w-xl mx-auto">
+                    Experience pain-free, 24-hour dental care in a premium facility. From emergency relief to invisible braces.
+                </p>
+                <div class="flex flex-col sm:flex-row justify-center gap-4">
+                    <a href="tel:+2349165409004" class="animate-pulse-red bg-red-600 hover:bg-red-700 text-white px-8 py-4 rounded-2xl font-semibold shadow-lg transition flex items-center justify-center gap-2">
+                        <i data-lucide="phone" class="w-5 h-5"></i> Emergency Call
+                    </a>
+                    <a href="#book" class="glass hover:bg-white/20 text-white px-8 py-4 rounded-2xl font-semibold transition flex items-center justify-center gap-2">
+                        <i data-lucide="calendar" class="w-5 h-5"></i> Book Visit
+                    </a>
+                </div>
+                <div class="mt-8 pt-8 border-t border-white/10 flex justify-center items-center gap-2">
+                    <div class="flex text-yellow-400">
+                        <i data-lucide="star" class="w-4 h-4 fill-current"></i>
+                        <i data-lucide="star" class="w-4 h-4 fill-current"></i>
+                        <i data-lucide="star" class="w-4 h-4 fill-current"></i>
+                        <i data-lucide="star" class="w-4 h-4 fill-current"></i>
+                        <i data-lucide="star" class="w-4 h-4 fill-current"></i>
+                    </div>
+                    <span class="text-sm text-slate-400">Trusted by 331+ Patients</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="services" class="py-24 relative overflow-hidden">
+        <div class="glow-blob top-0 left-0"></div>
+        <div class="max-w-7xl mx-auto px-6 relative z-10">
+            <div class="text-center mb-16">
+                <h2 class="text-4xl font-bold text-slate-900 tracking-tight mb-4">Crafted for Comfort</h2>
+                <p class="text-slate-500 max-w-2xl mx-auto">We combine advanced technology with a gentle touch.</p>
+            </div>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+                <div class="glass p-8 rounded-3xl hover:-translate-y-2 transition duration-300 group">
+                    <div class="w-14 h-14 bg-blue-50 rounded-2xl flex items-center justify-center mb-6 text-blue-600 group-hover:bg-blue-600 group-hover:text-white transition">
+                        <i data-lucide="smile" class="w-7 h-7"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-slate-800 mb-2">Fast Braces</h3>
+                    <p class="text-slate-500 text-sm leading-relaxed mb-4">Straighten teeth in record time. Invisalign & Orthodontics.</p>
+                    <span class="inline-block px-3 py-1 bg-green-100 text-green-700 text-xs font-bold rounded-full">20% OFF PROMO</span>
+                </div>
+                <div class="glass p-8 rounded-3xl hover:-translate-y-2 transition duration-300 group">
+                    <div class="w-14 h-14 bg-purple-50 rounded-2xl flex items-center justify-center mb-6 text-purple-600 group-hover:bg-purple-600 group-hover:text-white transition">
+                        <i data-lucide="sparkles" class="w-7 h-7"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-slate-800 mb-2">Cosmetic Veneers</h3>
+                    <p class="text-slate-500 text-sm leading-relaxed">Hollywood-style smile makeovers using ultra-thin porcelain veneers.</p>
+                </div>
+                <div class="glass p-8 rounded-3xl hover:-translate-y-2 transition duration-300 group border-red-100">
+                    <div class="w-14 h-14 bg-red-50 rounded-2xl flex items-center justify-center mb-6 text-red-600 group-hover:bg-red-600 group-hover:text-white transition">
+                        <i data-lucide="activity" class="w-7 h-7"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-slate-800 mb-2">24/7 Pain Relief</h3>
+                    <p class="text-slate-500 text-sm leading-relaxed">Immediate emergency attention for toothaches and trauma.</p>
+                </div>
+                 <div class="glass p-8 rounded-3xl hover:-translate-y-2 transition duration-300 group">
+                    <div class="w-14 h-14 bg-indigo-50 rounded-2xl flex items-center justify-center mb-6 text-indigo-600 group-hover:bg-indigo-600 group-hover:text-white transition">
+                        <i data-lucide="syringe" class="w-7 h-7"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-slate-800 mb-2">Facial Surgery</h3>
+                    <p class="text-slate-500 text-sm leading-relaxed">Maxillo-facial procedures and aesthetic facial enhancements.</p>
+                </div>
+                <div class="glass p-8 rounded-3xl hover:-translate-y-2 transition duration-300 group">
+                    <div class="w-14 h-14 bg-teal-50 rounded-2xl flex items-center justify-center mb-6 text-teal-600 group-hover:bg-teal-600 group-hover:text-white transition">
+                        <i data-lucide="shield-check" class="w-7 h-7"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-slate-800 mb-2">Preventive Care</h3>
+                    <p class="text-slate-500 text-sm leading-relaxed">Routine cleanings, scaling and polishing to stop issues early.</p>
+                </div>
+                <div class="glass p-8 rounded-3xl hover:-translate-y-2 transition duration-300 group">
+                    <div class="w-14 h-14 bg-pink-50 rounded-2xl flex items-center justify-center mb-6 text-pink-600 group-hover:bg-pink-600 group-hover:text-white transition">
+                        <i data-lucide="baby" class="w-7 h-7"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-slate-800 mb-2">Pediatric Care</h3>
+                    <p class="text-slate-500 text-sm leading-relaxed">Gentle dental care for the little ones in a fear-free environment.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="testimonials" class="py-20 relative bg-white/50">
+        <div class="max-w-7xl mx-auto px-6">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl font-bold text-slate-900">Abuja Loves 2tshie</h2>
+                <p class="text-slate-500">Don't just take our word for it.</p>
+            </div>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+                <div class="glass p-8 rounded-3xl border border-white/40 shadow-sm">
+                    <div class="flex text-yellow-400 mb-4">
+                        <i data-lucide="star" class="w-4 h-4 fill-current"></i>
+                        <i data-lucide="star" class="w-4 h-4 fill-current"></i>
+                        <i data-lucide="star" class="w-4 h-4 fill-current"></i>
+                        <i data-lucide="star" class="w-4 h-4 fill-current"></i>
+                        <i data-lucide="star" class="w-4 h-4 fill-current"></i>
+                    </div>
+                    <p class="text-slate-600 mb-6 text-sm leading-relaxed">"I had a terrible toothache at 2 AM. I drove to Novare Mall and they saw me immediately. The relief was instant."</p>
+                    <div class="flex items-center gap-3">
+                        <div class="w-10 h-10 rounded-full bg-blue-100 flex items-center justify-center text-blue-600 font-bold">E</div>
+                        <div><p class="text-sm font-bold text-slate-900">Emeka O.</p><p class="text-xs text-slate-500">Gudu, Abuja</p></div>
+                    </div>
+                </div>
+                <div class="glass p-8 rounded-3xl border border-white/40 shadow-sm">
+                    <div class="flex text-yellow-400 mb-4">                  m
+                        <i data-lucide="star" class="w-4 h-4 fill-current"></i>
+                        <i data-lucide="star" class="w-4 h-4 fill-current"></i>
+                        <i data-lucide="star" class="w-4 h-4 fill-current"></i>
+                        <i data-lucide="star" class="w-4 h-4 fill-current"></i>
+                        <i data-lucide="star" class="w-4 h-4 fill-current"></i>
+                    </div>
+                    <p class="text-slate-600 mb-6 text-sm leading-relaxed">"Got my Invisalign here. The process was smooth and the payment plan was very flexible."</p>
+                    <div class="flex items-center gap-3">
+                        <div class="w-10 h-10 rounded-full bg-purple-100 flex items-center justify-center text-purple-600 font-bold">Z</div>
+                        <div><p class="text-sm font-bold text-slate-900">Zainab A.</p><p class="text-xs text-slate-500">Wuse II</p></div>
+                    </div>
+                </div>
+                <div class="glass p-8 rounded-3xl border border-white/40 shadow-sm">
+                    <div class="flex text-yellow-400 mb-4">
+                        <i data-lucide="star" class="w-4 h-4 fill-current"></i>
+                        <i data-lucide="star" class="w-4 h-4 fill-current"></i>
+                        <i data-lucide="star" class="w-4 h-4 fill-current"></i>
+                        <i data-lucide="star" class="w-4 h-4 fill-current"></i>
+                        <i data-lucide="star" class="w-4 h-4 fill-current"></i>
+                    </div>
+                    <p class="text-slate-600 mb-6 text-sm leading-relaxed">"Very clean and the equipment is top notch. Doesn't feel like a typical hospital."</p>
+                    <div class="flex items-center gap-3">
+                        <div class="w-10 h-10 rounded-full bg-green-100 flex items-center justify-center text-green-600 font-bold">C</div>
+                        <div><p class="text-sm font-bold text-slate-900">Chinedu K.</p><p class="text-xs text-slate-500">Lokogoma</p></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="book" class="py-24 px-6 relative">
+        <div class="max-w-4xl mx-auto">
+            <div class="glass bg-white/80 p-8 md:p-12 rounded-[2.5rem] shadow-2xl relative overflow-hidden">
+                <div class="absolute -top-24 -right-24 w-64 h-64 bg-blue-500/10 rounded-full blur-3xl"></div>
+                <div class="grid md:grid-cols-2 gap-12 items-center relative z-10">
+                    <div>
+                        <h2 class="text-3xl font-bold text-slate-900 mb-4">Book Your Appointment</h2>
+                        <p class="text-slate-500 mb-8">Fill out the form and our front desk will confirm your slot within 15 minutes.</p>
+                        <div class="space-y-4">
+                            <div class="flex items-center gap-4 text-sm text-slate-600"><div class="w-10 h-10 rounded-full bg-green-100 flex items-center justify-center text-green-600"><i data-lucide="check" class="w-5 h-5"></i></div><span>Insurance Accepted</span></div>
+                            <div class="flex items-center gap-4 text-sm text-slate-600"><div class="w-10 h-10 rounded-full bg-blue-100 flex items-center justify-center text-blue-600"><i data-lucide="clock" class="w-5 h-5"></i></div><span>Open 24 Hours / 7 Days</span></div>
+                        </div>
+                    </div>
+                    <form action="https://formspree.io/f/mwvvkbyg" method="POST" class="space-y-4">
+                        <input type="text" name="name" placeholder="Full Name" required class="w-full p-4 bg-slate-50 rounded-xl border border-slate-200 focus:outline-none focus:ring-2 focus:ring-blue-500 transition">
+                        <input type="tel" name="phone" placeholder="Phone Number" required class="w-full p-4 bg-slate-50 rounded-xl border border-slate-200 focus:outline-none focus:ring-2 focus:ring-blue-500 transition">
+                        <select name="service" class="w-full p-4 bg-slate-50 rounded-xl border border-slate-200 focus:outline-none focus:ring-2 focus:ring-blue-500 transition text-slate-600">
+                            <option>Emergency Care</option>
+                            <option>Orthodontics Promo</option>
+                            <option>Teeth Whitening</option>
+                            <option>General Checkup</option>
+                            <option>Pediatric Service</option>
+                            <option>Facial Surgery</option>
+                        </select>
+                        <button type="submit" class="w-full py-4 bg-slate-900 text-white rounded-xl font-bold text-lg hover:bg-slate-800 hover:scale-[1.02] transition-all shadow-lg flex justify-center items-center gap-2">
+                            Confirm Booking <i data-lucide="arrow-right" class="w-5 h-5"></i>
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+<section id="gallery" class="py-20 px-6 max-w-7xl mx-auto">
+        <div class="flex flex-col md:flex-row justify-between items-end mb-12 gap-4">
+            <div>
+                <h2 class="text-3xl font-bold text-slate-900">Inside the Clinic</h2>
+                <p class="text-slate-500 mt-2">State-of-the-art facilities at Novare Apo Mall.</p>
+            </div>
+            
+            </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-4 h-auto md:h-[500px]">
+            
+            <div class="md:col-span-2 h-64 md:h-full group relative overflow-hidden rounded-3xl shadow-sm border border-slate-100">
+                <img src="clinic1.jpg" alt="Clinic Interior" class="w-full h-full object-cover transition duration-700 group-hover:scale-105">
+                <div class="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent opacity-0 group-hover:opacity-100 transition duration-300 flex items-end p-6">
+                    <p class="text-white font-medium">Modern Reception & Waiting Area</p>
+                </div>
+            </div>
+
+            <div class="flex flex-col gap-4 h-full">
+                
+                <div class="h-64 md:h-1/2 group relative overflow-hidden rounded-3xl shadow-sm border border-slate-100">
+                    <img src="clinic2.jpg" alt="Dentist Consultation" class="w-full h-full object-cover transition duration-700 group-hover:scale-105">
+                     <div class="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent opacity-0 group-hover:opacity-100 transition duration-300 flex items-end p-6">
+                        <p class="text-white font-medium">Expert Consultation</p>
+                    </div>
+                </div>
+
+                <div class="h-64 md:h-1/2 group relative overflow-hidden rounded-3xl shadow-sm border border-slate-100">
+                    <img src="clinic3.jpg" alt="Dental Equipment" class="w-full h-full object-cover transition duration-700 group-hover:scale-105">
+                     <div class="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent opacity-0 group-hover:opacity-100 transition duration-300 flex items-end p-6">
+                        <p class="text-white font-medium">Advanced Technology</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="py-20 px-6 max-w-6xl mx-auto border-t border-slate-200">
+        <div class="grid md:grid-cols-2 gap-12 items-center">
+            <div>
+                <h2 class="text-4xl font-black text-slate-900 mb-6">Visit Us In Apo</h2>
+                <div class="flex items-start gap-3 mb-4">
+                    <i data-lucide="map-pin" class="w-6 h-6 text-red-600 mt-1 flex-shrink-0"></i>
+                    <div><p class="text-lg font-bold">Shop 2, Shoprite (Novare Apo Mall)</p><p class="text-slate-600 leading-relaxed">Murtala Mohammed Express Way, Abuja.</p></div>
+                </div>
+                <div class="flex gap-4 mt-8">
+                    <a href="tel:+2349165409004" class="bg-blue-100 text-blue-700 px-6 py-3 rounded-lg font-bold hover:bg-blue-200 flex items-center justify-center gap-2"><i data-lucide="phone" class="w-5 h-5"></i> Call Now</a>
+                    <a href="https://wa.me/2349165409004" class="bg-green-100 text-green-700 px-6 py-3 rounded-lg font-bold hover:bg-green-200 flex items-center justify-center gap-2"><i data-lucide="message-circle" class="w-5 h-5"></i> WhatsApp</a>
+                </div>
+            </div>
+            <div class="h-[400px] rounded-[2rem] overflow-hidden shadow-2xl border-8 border-white ring-1 ring-slate-100">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3940.8533139855524!2d7.473534075841005!3d8.985651791074125!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x104e0dad9f067d71%3A0x6a0904d9c025078a!2sNovare%20Apo%20Mall!5e0!3m2!1sen!2sng!4v1700000000000!5m2!1sen!2sng" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            </div>
+        </div>
+    </section>
+
+    <footer class="bg-slate-900 text-slate-400 py-12 text-center text-sm">
+        <p>&copy; 2026 2tshie Dental Clinic. Shoprite Novare Mall.</p>
+    </footer>
+
+<script>
+    
+    lucide.createIcons();
+
+    const btn = document.getElementById('backToTop');
+
+    window.onscroll = function() {
+        // When the user scrolls down 400px from the top, show the button
+        if (document.body.scrollTop > 400 || document.documentElement.scrollTop > 400) {
+            btn.style.opacity = "1";
+            btn.style.transform = "translateY(0)";
+            btn.style.pointerEvents = "auto";
+        } else {
+            btn.style.opacity = "0";
+            btn.style.transform = "translateY(20px)";
+            btn.style.pointerEvents = "none";
+        }
+    };
+</script><a href="#" id="backToTop" 
+   style="z-index: 9999 !important;"
+   class="fixed bottom-8 right-8 glass p-4 rounded-2xl shadow-2xl opacity-0 transition-all duration-500 hover:bg-blue-600 hover:text-white group border-2 border-white/50">
+    <i data-lucide="chevron-up" class="w-6 h-6 group-hover:animate-bounce"></i>
+</a>
+</body>
+</html>
