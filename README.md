@@ -44,4 +44,4 @@ Cloud Hosting: Deployed via Netlify, utilizing their Global CDN and Edge Computi
 GitHub Repository: https://github.com/alicia9545/2shite-website
 
 Live Application Link: https://2shite-dental-clinic.netlify.app
-tese
+tes
